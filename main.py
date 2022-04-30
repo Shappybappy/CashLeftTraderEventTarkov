@@ -4,7 +4,7 @@ from selenium import webdriver
 
 from bs4 import BeautifulSoup
 
-DRIVER_PATH = "C:\\Users\\rmrey\\shitty apps\\ChromeDriver\\chromedriver.exe"
+DRIVER_PATH = "'your driver path"
 main_url = 'https://www.escapefromtarkov.com/cash'
 
 options = Options()
