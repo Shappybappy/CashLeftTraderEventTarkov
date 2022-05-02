@@ -1,12 +1,11 @@
 #main.py
-from time import sleep
 from datetime import datetime
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 
 from bs4 import BeautifulSoup
 
-DRIVER_PATH = 'C:\\Users\\rmrey\\shitty apps\\ChromeDriver\\chromedriver.exe'
+DRIVER_PATH = 'ur driver path'
 main_url = 'https://www.escapefromtarkov.com/cash'
 
 options = Options()
@@ -33,4 +32,3 @@ if __name__ == '__main__':
         final_result = ' '.join(str(v) for v in main_result)
 
         print(final_result, end='\r')
-        sleep(10)
